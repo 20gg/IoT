@@ -1,0 +1,106 @@
+<ion-header-bar align-title="center" class="bar bar-header bar-calm">
+    <a class="button button-icon ion-ios-arrow-left" href="#/login"></a>
+    <div class="h1 title login-title">物联网</div>
+</ion-header-bar>
+<ion-view>
+    <ion-content overflow-scroll="true" >
+         <div class="scroll-content has-header" >
+          <div class="row">
+           <div class="col col-50">  
+                 <li class="item item-toggle">led1
+                    <label class="toggle toggle-assertive">  
+                        <input type="checkbox"  ng-click="change('1')" ng-checked="{{!!stm.led1}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>  
+           </div>
+           <div class="col col-50">
+               <li class="item item-toggle">led2
+                    <label class="toggle toggle-balanced">  
+                        <input type="checkbox" ng-click="change('2')" ng-checked="{{!!stm.led2}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col col-50">  
+                 <li class="item item-toggle">led3
+                    <label class="toggle toggle-calm">  
+                        <input type="checkbox" ng-click="change('3')" ng-checked="{{!!stm.led3}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>  
+           </div>
+           <div class="col col-50">
+               <li class="item item-toggle">led4
+                    <label class="toggle toggle-dark">  
+                        <input type="checkbox" ng-click="change('4')" ng-checked="{{stm.led4==1 ? 'true':'false'}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col col-50">  
+                 <li class="item item-toggle">led5
+                    <label class="toggle toggle-energized">  
+                        <input type="checkbox" ng-click="change('5')" ng-checked="{{stm.led5==1 ? 'true':'false'}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>  
+           </div>
+           <div class="col col-50">
+               <li class="item item-toggle">led6
+                    <label class="toggle toggle-royal">  
+                        <input type="checkbox" ng-click="change('6')" ng-checked="{{stm.led6==1 ? 'true':'false'}}">  
+                        <div class="track">  
+                           <div class="handle"></div>  
+                        </div>  
+                    </label>  
+                </li>
+           </div>
+          </div>
+          <div class="blank-h12"></div>
+          <div class="blank-h12"></div>
+          <div class="row">
+           <div class="col col-50">  
+                <li class="item item-text-wrap">{{stm.param1}}</li>
+           </div>
+           <div class="col col-50">
+                <li class="item item-text-wrap">{{stm.param2}}</li>
+           </div>
+          </div>
+
+          <div class="row">
+           <div class="col col-50">  
+                <li class="item item-text-wrap">{{stm.param3}}</li>
+           </div>
+           <div class="col col-50">
+                <li class="item item-text-wrap">{{stm.param4}}</li>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col col-50">  
+                <li class="item item-text-wrap">{{stm.param5}}</li>
+           </div>
+           <div class="col col-50">
+                <li class="item item-text-wrap">{{stm.param6}}</li>
+           </div>
+          </div>
+
+
+         </div>
+              
+    </ion-content>
+</ion-view>

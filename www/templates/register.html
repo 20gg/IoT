@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <ion-header-bar align-title="center" class="bar-stable">
+            <div class="buttons">
+                <button class="button button-icon ion-ios-arrow-left" ng-click="back()">
+                </button>
+            </div>
+            <div class="h1 title login-title">注册</div>
+        </ion-header-bar>
+        <ion-content has-bouncing="true" overflow-scroll="true">
+            <div class="login-mian">
+                <div class="register-content">
+                    <div class="input-wrap row row-center">
+                        <label class="left-icon-wrap">
+                            <i class="ion ion-person"></i>
+                        </label>
+                        <input type="text" class="col login-input" ng-model="user.username" placeholder="请输入用户名（6位至12位，由字母开头加数字组成）" />
+                    </div>
+                    <div class="input-wrap row row-center mt-20">
+                        <label class="left-icon-wrap">
+                            <i class="icon icon-psw"></i>
+                        </label>
+                        <input type="password" class="col login-input"
+                        placeholder="请设置密码（6位至12位）" ng-model="user.password" onkeyup="value=value.   replace(/[^\w\.\/]/ig,'')"
+                        />
+                    </div>
+                    <div class="input-wrap row row-center mt-20">
+                        <label class="left-icon-wrap">
+                            <i class="icon icon-psw"></i>
+                        </label>
+                        <input type="password" class="col login-input"
+                        placeholder="请再次输入密码" ng-model="user.repassword" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"
+                        />
+                    </div>
+                    <div class="input-wrap row row-center mt-20">
+                        <label class="left-icon-wrap">
+                            <i class="icon ion-key"></i>
+                        </label>
+                         <input type="text" class="col login-input" ng-model="user.deviceid" placeholder="请输入设备号"/> 
+                    </div>
+                    <div class="blank-h12"></div>
+                    <button class="button button-block  button-positive" ng-click="comfirm()">
+                        注册
+                    </button>
+                </div>
+            </div>
+      
+        </ion-content>
+    </body>
+
+</html>
