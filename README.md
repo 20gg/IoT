@@ -13,10 +13,8 @@ bla bla bla...</br>
 	
 # The Screenshot
 
-<img src="resources/demo0.png">
 <img src="resources/demo1.png">
 <img src="resources/demo2.png">
-<img src="resources/demo3.png">
 
 # Learn More
 
