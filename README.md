@@ -1,6 +1,5 @@
-# ionic-social-app
-
-ionic app social -- a free app as demo to learn ionic...</br>
+# stm
+stm 采用 ionic app social 为原版模型</br>
 ionic is a web framework for us to develop web apps ...</br>
 bla bla bla...</br>
 
@@ -18,7 +17,7 @@ bla bla bla...</br>
 
 # Learn More
 
-<a href="http://www.cnblogs.com/Lxiaolong/p/5399008.html">**中文教程Blog**</a>
+<a href="http://www.cnblogs.com/Lxiaolong/p/5399008.html">**social中文教程Blog**</a>
 
 #License
 
